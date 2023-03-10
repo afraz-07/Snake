@@ -116,10 +116,14 @@ body{
         padding: 5px;
     }
 
-    /* .container{
-        width: 65vmin;
-        height: 57vmin;
-    } */
+    .container{
+        width: 90vmin;
+        height: 90vmin;
+    }
+
+    body{
+        height: auto;
+    }
 }
 
 /* @media(max-width:500px){
