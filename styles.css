@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    font-size: 25px;
+    font-family: 'Yatra One', cursive;
+    background-color: #E3F2FD;
+    text-align: center;
+    padding: 10px 0;
+    color: #212837;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E3F2FD;
+}
+
+.container{
+    width: 65vmin;
+    height: 70vmin;
+    background-color: #293447;
+}
+
+.scoreboard{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Play', sans-serif;
+}
+
+.gameboard{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background-color: #212837;
+    border: 0.7rem solid black;
+}
+
+.gameboard .food{
+    background-color: #FF003D;
+}
+
+.gameboard .head{
+    background-color: #60CBFF;
+}
+
+.control{
+    padding: 30px 0 0 0;
+    text-align: center;
+    position: relative;
+    padding-left: 55px;
+    display: none;
+}
+
+.control i{
+    font-size: 2.5rem;
+    font-weight: 500;
+    background-color: #293447;
+    color: white;
+}
+
+.control #up{
+    position: absolute;
+    top: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+
+.control #down{
+    position: absolute;
+    top: 80px;
+    border: 2px solid black;
+    padding: 0 8px ;
+    border-radius: 50%;
+}
+
+.control #left{
+   transform:translate(-42px,15px);
+   border: 2px solid black;
+   padding: 0px 13px ;
+   border-radius: 50%;
+}
+
+.control #right{
+    transform:translate(-5px,14px);
+    border: 2px solid black;
+    padding:0px 13px;
+    border-radius: 50%;
+}
+
+
+@media(max-width:550px){
+    .control{
+        display: block;
+    }
+
+    .scoreboard{
+        font-size: 1rem;
+    }
+
+    .header{
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .container{
+        width: 65vmin;
+        height: 57vmin;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        width: 70vmin;
+        height: 61vmin;
+    }
+}
+
+@media(max-width:450px){
+    .container{
+        width: 75vmin;
+        height: 68vmin;
+    }
+}
+
+@media(max-width:430px){
+    .container{
+        width: 80vmin;
+        height: 72vmin;
+    }
+}
+
+@media(max-width:400px){
+    .container{
+        width: 80vmin;
+        height: 78vmin;
+    }
+}
+
+@media(max-width:350px){
+    .container{
+        width: 85vmin;
+        height: 85vmin;
+    }
+}
