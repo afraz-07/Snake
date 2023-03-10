@@ -81,23 +81,23 @@ body{
 
 .control #down{
     position: absolute;
-    top: 80px;
+    top: 120px;
     border: 2px solid black;
     padding: 0 8px ;
     border-radius: 50%;
 }
 
 .control #left{
-   transform:translate(-42px,15px);
+   transform:translate(-56px,33px);
    border: 2px solid black;
    padding: 0px 13px ;
    border-radius: 50%;
 }
 
 .control #right{
-    transform:translate(-5px,14px);
+    transform:translate(7px ,33px);
     border: 2px solid black;
-    padding:0px 13px;
+    padding:0px 14px;
     border-radius: 50%;
 }
 
