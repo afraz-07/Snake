@@ -116,13 +116,13 @@ body{
         padding: 5px;
     }
 
-    .container{
+    /* .container{
         width: 65vmin;
         height: 57vmin;
-    }
+    } */
 }
 
-@media(max-width:500px){
+/* @media(max-width:500px){
     .container{
         width: 70vmin;
         height: 61vmin;
@@ -155,4 +155,4 @@ body{
         width: 85vmin;
         height: 85vmin;
     }
-}
+} */
