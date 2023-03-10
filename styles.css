@@ -76,28 +76,28 @@ body{
     top: 8px;
     border: 2px solid black;
     border-radius: 50%;
-    padding: 7px 16px 10px 16px;
+    padding: 10px 19px 13px 19px;
 }
 
 .control #down{
     position: absolute;
     top: 120px;
     border: 2px solid black;
-    padding: 9px 16px 8px 16px;
+    padding: 12px 19px 11px 19px;
     border-radius: 50%;
 }
 
 .control #left{
    transform:translate(-56px,33px);
    border: 2px solid black;
-   padding: 9px 23px 8px 19px ;
+   padding: 12px 26px 11px 22px ;
    border-radius: 50%;
 }
 
 .control #right{
-    transform:translate(-6px ,33px);
+    transform:translate(-13px ,34px);
     border: 2px solid black;
-    padding: 9px 19px 8px 24px ;
+    padding: 12px 22px 11px 27px ;
     border-radius: 50%;
 }
 
