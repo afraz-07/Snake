@@ -79,30 +79,30 @@ body{
     position: absolute;
     top: 8px;
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 10%;
     padding: 10px 19px 13px 19px;
 }
 
 .control #down{
     position: absolute;
-    top: 120px;
+    top: 150px;
     border: 2px solid black;
     padding: 12px 19px 11px 19px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .control #left{
-   transform:translate(-56px,33px);
+   transform:translate(-66px,50px);
    border: 2px solid black;
    padding: 12px 26px 11px 22px ;
-   border-radius: 50%;
+   border-radius: 10%;
 }
 
 .control #right{
-    transform:translate(-13px ,34px);
+    transform:translate(0px ,49px);
     border: 2px solid black;
     padding: 12px 22px 11px 27px ;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 
