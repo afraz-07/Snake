@@ -130,37 +130,3 @@ body{
     }
 }
 
-/* @media(max-width:500px){
-    .container{
-        width: 70vmin;
-        height: 61vmin;
-    }
-}
-
-@media(max-width:450px){
-    .container{
-        width: 75vmin;
-        height: 68vmin;
-    }
-}
-
-@media(max-width:430px){
-    .container{
-        width: 80vmin;
-        height: 72vmin;
-    }
-}
-
-@media(max-width:400px){
-    .container{
-        width: 80vmin;
-        height: 78vmin;
-    }
-}
-
-@media(max-width:350px){
-    .container{
-        width: 85vmin;
-        height: 85vmin;
-    }
-} */
