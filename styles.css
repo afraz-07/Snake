@@ -142,7 +142,6 @@ body{
 #btn:hover{
     background-color: aqua;
     color: rgb(38, 37, 37);
-    font-weight: 600;
 }
 
 #result h1{
