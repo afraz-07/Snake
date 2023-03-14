@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +31,7 @@ body{
     width: 65vmin;
     height: 70vmin;
     background-color: #293447;
+    display: block;
 }
 
 .scoreboard{
@@ -105,6 +110,47 @@ body{
     border-radius: 10%;
 }
 
+#text{
+    padding: 25px 0;
+    color: white;
+    font-size: large;
+    font-family: 'Play', sans-serif;
+
+}
+
+#result{
+    display: none;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    margin:10rem  auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(41, 41, 41);
+}
+
+#btn{
+    font-size: 25px;
+    padding: 3px 25px;
+    background-color: transparent;
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    font-family: 'Iceland', cursive;
+}
+
+#btn:hover{
+    background-color: aqua;
+    color: rgb(38, 37, 37);
+    font-weight: 600;
+}
+
+#result h1{
+    color: rgb(41, 41, 41);
+    font-family: 'Press Start 2P', cursive;
+    text-shadow:  0 0 3px aqua, 0 0  5px aqua ,  0 0  5px aqua , 0 0  5px aqua;
+}
+
 
 @media(max-width:550px){
     .control{
@@ -128,5 +174,33 @@ body{
     body{
         height: auto;
     }
+    #result{
+        width: 400px;
+    }
 }
 
+
+@media(max-width:450px){
+    #result{
+        width: 350px;
+    }
+
+    #result h1{
+        font-size: x-large;
+    }
+}
+
+@media(max-width:400px){
+    #result{
+        width: 300px;
+    }
+
+    #result h1{
+        font-size: larger;
+    }
+
+    #btn{
+        font-size: 20px;
+        padding: 3px 25px;
+    }
+}

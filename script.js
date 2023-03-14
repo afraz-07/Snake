@@ -2,6 +2,9 @@ const gameborad = document.querySelector(".gameboard");
 const scoreCount = document.querySelector(".score");
 const highScoreCount = document.querySelector(".highscore");
 const controls = document.querySelectorAll(".control i");
+const container = document.querySelector(".container");
+const result = document.querySelector("#result");
+const text=document.querySelector("#text") 
 
 
 let gameOver = false;
@@ -23,9 +26,9 @@ function changeFood(){
 
 function displayGameOver(){
     clearInterval(setIntervalId);
-    alert(`Game Over
-Click OK to Replay....`);
-location.reload()
+    result.style.display = "block";
+    container.style.display = "none";
+    text.innerHTML= `Score: ${score}`;
 }
 
 function changeDirection(e){
